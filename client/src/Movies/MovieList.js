@@ -35,7 +35,6 @@ const MovieList = props => {
 
 function MovieDetails({ movie }) {
   const { title, director, metascore, stars } = movie;
-  console.log(movie)
   return (
     <div className="movie-card">
       <Link style={{textDecoration: "none", color: "inherit"}} to={`/movies/0`} >
